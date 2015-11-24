@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Immigrants Guide</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="CountryCodes" >
+
+        <item>46,SE</item>
+        <item>47,NO</item>
+        <item>353,IS</item>
+        <item>44,GB</item>
+        <item>33,FR</item>
+        <item>298,FO</item>
+        <item>358,FI</item>
+        <item>45,DK</item>
+        <item>49,DE</item>
+    </string-array>
+
 </resources>
