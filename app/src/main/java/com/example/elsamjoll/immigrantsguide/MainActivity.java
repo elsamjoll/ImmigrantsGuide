@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Setja londin i array ut fra strings.xml hlutunum
-        String[] recourseList=this.getResources().getStringArray(R.array.CountryCodes);
+        String[] recourseList = this.getResources().getStringArray(R.array.CountryCodes);
 
         //Setja londin og fanana i listview (sem er í activity_main.xml
         final ListView listview = (ListView) findViewById(R.id.listView);
