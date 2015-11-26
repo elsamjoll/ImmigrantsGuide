@@ -2,18 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    android:textAlignment="center"
+    android:showDividers="none"
+    android:gravity="center_vertical">
 
 
     <ImageView
         android:id="@+id/imgViewFlag"
-        android:layout_height="14px"
-        android:layout_width="18px"
-        android:layout_margin="5dp" />
+        android:layout_height="30px"
+        android:layout_width="40px"
+        android:textAlignment="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:id="@+id/txtViewCountryName"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content" />
+        android:layout_width="wrap_content"
+        android:allowUndo="false"
+        android:layout_marginLeft="5dp" />
 
 </LinearLayout>
