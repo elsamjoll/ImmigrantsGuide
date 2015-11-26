@@ -3,7 +3,6 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="CountryCodes" >
-
         <item>46,SE</item>
         <item>47,NO</item>
         <item>353,IS</item>
@@ -13,6 +12,15 @@
         <item>358,FI</item>
         <item>45,DK</item>
         <item>49,DE</item>
+    </string-array>
+
+
+    <string-array name="topics_list">
+        <item>Registration</item>
+        <item>Banking</item>
+        <item>Healthcare</item>
+        <item>Children</item>
+        <item>Transportation</item>
     </string-array>
 
 </resources>

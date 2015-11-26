@@ -20,6 +20,12 @@
         </activity>
 
         <activity android:name=".Topics"/>
+        <activity android:name=".Registration"/>
+        <activity android:name=".Banking"/>
+        <activity android:name=".Healthcare"/>
+        <activity android:name=".Children"/>
+        <activity android:name=".Transportation"/>
+
     </application>
 
 </manifest>
