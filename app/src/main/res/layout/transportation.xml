@@ -5,76 +5,53 @@
               android:layout_height="match_parent">
 
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Transportation"
-        android:id="@+id/textViewTransportation"
-        android:layout_gravity="center_horizontal"/>
+        android:id="@+id/textViewBanking"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50px"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView33" />
+        android:text="Lorem Ipsum"
+        android:id="@+id/textView"
+        android:padding="20px"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView34" />
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius leo diam, ut placerat urna pharetra eu. Fusce sollicitudin ante sed justo porttitor, vel malesuada lectus volutpat. Sed dictum lacus viverra nisl maximus, eget rutrum enim dignissim. Proin luctus nunc eget quam pharetra, quis feugiat lectus pellentesque. Sed non metus eu massa porta ultrices."
+        android:id="@+id/textView2"
+        android:padding="20px"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView35" />
+        android:text="Praesent Lorem"
+        android:id="@+id/textView3"
+        android:padding="20px"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView36" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView37" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView38" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView39" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView40" />
+        android:text="Praesent lorem lorem, dictum varius tempor eget, eleifend eu odio. Vivamus velit nibh, interdum nec purus rutrum, aliquam vestibulum libero. Praesent faucibus ullamcorper dignissim. In pretium finibus ligula malesuada finibus. Nullam blandit risus ac ligula consequat mollis. "
+        android:id="@+id/textView4"
+        android:padding="20px"
+        android:paddingBottom="50px"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Help"
         android:id="@+id/button5"
-        android:layout_gravity="center" />
-
+        android:layout_gravity="center"
+        android:paddingTop="20px"/>
 </LinearLayout>
