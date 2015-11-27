@@ -26,6 +26,10 @@
         <activity android:name=".Children"/>
         <activity android:name=".Transportation"/>
         <activity android:name=".Contacts"/>
+        <activity android:name=".Jon"/>
+        <activity android:name=".Pedro"/>
+        <activity android:name=".Sigga"/>
+        <activity android:name=".Helena"/>
 
 
     </application>

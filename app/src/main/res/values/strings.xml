@@ -16,11 +16,19 @@
 
 
     <string-array name="topics_list">
-        <item>Registration</item>
-        <item>Banking</item>
-        <item>Healthcare</item>
-        <item>Children</item>
-        <item>Transportation</item>
+    <item>Registration</item>
+    <item>Banking</item>
+    <item>Healthcare</item>
+    <item>Children</item>
+    <item>Transportation</item>
+</string-array>
+
+
+    <string-array name="contacts_list">
+        <item>Pedro</item>
+        <item>Helena</item>
+        <item>Sigga</item>
+        <item>Jon</item>
     </string-array>
 
 </resources>

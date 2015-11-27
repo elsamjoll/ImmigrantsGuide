@@ -15,7 +15,7 @@ import android.widget.Toast;
  * Created by elsamjoll on 24/11/15.
  *
  * Herna thurfum vid ad bua til listvie sem er med Registration,Healthcare.... og gera that
- * clicable...
+ * clickable...
  */
 public class Topics extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
