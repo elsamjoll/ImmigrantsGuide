@@ -27,6 +27,20 @@ public class Pedro extends Activity {
                 startActivity(callIntent);
             }
         });
+
+        // Til að senda email
+        Button eButton= (Button) findViewById(R.id.buttonEmail);
+        eButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_EMAIL, "emailaddress@emailaddress.com");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "I need help");
+                intent.putExtra(Intent.EXTRA_TEXT, "Help me please!");
+                startActivity(Intent.createChooser(intent, "Send Email"));
+            }
+        });
     }
 }
 

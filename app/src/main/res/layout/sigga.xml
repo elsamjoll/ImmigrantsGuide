@@ -76,11 +76,11 @@
         android:id="@+id/button"
         android:layout_gravity="center" />
 
-    <ButtonEmail
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send Email"
-        android:id="@+id/button"
+        android:id="@+id/buttonEmail"
         android:layout_gravity="center" />
 
 
