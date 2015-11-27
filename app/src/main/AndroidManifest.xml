@@ -32,6 +32,10 @@
         <activity android:name=".Helena"/>
 
 
+        <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+
     </application>
+
 
 </manifest>
